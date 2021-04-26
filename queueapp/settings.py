@@ -81,14 +81,24 @@ WSGI_APPLICATION = 'queueapp.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'freedbtech_queueapp',
-        'USER': 'freedbtech_adminlogin',
-        'PASSWORD': 'adminpassword',
-        'HOST': 'freedb.tech',
-        'PORT': '3306',
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': 'heroku_9d8b22b91962c5f',
+    'USER': 'b18968d3271bfb',
+    'PASSWORD': '70d8e32f',
+    'HOST': 'us-cdbr-east-03.cleardb.com',
+    #'PORT': '3306',
     }
+       
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'freedbtech_queueapp',
+    #     'USER': 'freedbtech_adminlogin',
+    #     'PASSWORD': 'adminpassword',
+    #     'HOST': 'freedb.tech',
+    #     'PORT': '3306',
+    # }
 
     # 'default': {
     #     'ENGINE': 'django.db.backends.mysql',

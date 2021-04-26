@@ -1,1 +1,1 @@
-web: gunicorn queueapp.wsgi:queueapi
+web: gunicorn queueapp.wsgi
